@@ -1,7 +1,7 @@
 import csv
 from collections import defaultdict
 
-from pep_parse.settings import RESULS_DIR, DATETIME, BASE_DIR
+from pep_parse.settings import BASE_DIR, DATETIME, RESULS_DIR
 
 
 class PepParsePipeline:
