@@ -20,3 +20,4 @@ class PepParsePipeline:
             writer.writerow(['Status', 'Quantity'])
             writer.writerows(self.pep_statuses.items())
             writer.writerow(['Total', total])
+
